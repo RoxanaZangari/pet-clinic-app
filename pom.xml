@@ -7,8 +7,7 @@
 	<artifactId>pet-clinic-app</artifactId>
 	<version>1.0.0</version>
 
-
-	<modules>
+    <modules>
         <module>pet-clinic-data</module>
 		<module>pet-clinic-web</module>
 	</modules>
@@ -35,7 +34,7 @@
 		<connection>scm:git//github.com/RoxanaZangari/pet-clinic-app.git</connection>
 		<developerConnection>scm:git:ssh://github.com/RoxanaZangari/pet-clinic-app.git</developerConnection>
 		<url>https://github.com/RoxanaZangari/pet-clinic-app.git</url>
-		<tag>pet-clinic-app-1.0.0</tag>
+		<tag>pet-clinic-app-0.0.3</tag>
 	</scm>
 
 	<build>
