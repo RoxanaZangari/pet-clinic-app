@@ -5,9 +5,10 @@
 
 	<groupId>com.springframework</groupId>
 	<artifactId>pet-clinic-app</artifactId>
-	<version>0.0.3</version>
+	<version>1.0.0-SNAPSHOT</version>
 
-    <modules>
+
+	<modules>
         <module>pet-clinic-data</module>
 		<module>pet-clinic-web</module>
 	</modules>
