@@ -1,12 +1,12 @@
 package com.springframework.pet_clinic_app.services.map;
 
 import com.springframework.pet_clinic_app.model.Owner;
-import com.springframework.pet_clinic_app.services.CrudService;
+import com.springframework.pet_clinic_app.services.OwnerService;
 import org.yaml.snakeyaml.tokens.Token;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
 
     @Override
@@ -32,5 +32,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     @Override
     public Owner save(Owner owner) {
         return super.save(owner.getId(), owner);
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }
